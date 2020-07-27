@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Your Description">
+    <meta name="author" content="Mark">
+    <meta name="keywords" content="HTML, Tutorial, giraffeacademy">
+    <!--Controls how website are displayed on a mobile device-->
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Mark's Website 2.0</title>
+</head>
+
+<body>
+    <!--Formatting A Page-->
+    <header>
+        <nav>
+            <!--Navigation list or links would go here-->
+        </nav>
+    </header>
+    <main>
+        <article>
+            <!--Text for an article would go here-->
+            <section>
+                <!--Help seperate sections of the article (Headers can also be used)-->
+                <aside>
+                    <!--Can be used for ads and side content for the website-->
+                </aside>
+            </section>
+            <section>
+                <!--Help seperate sections of the article (Headers can also be used)-->
+            </section>
+        </article>
+    </main>
+    <footer>
+
+    </footer>
+
+    <!--Links-->
+    <h2>Links Tutorial</h2>
+    <hr>
+    <a href="https://www.google.com" target="_blank">
+        <h1>Google's Homepage</h1>
+    </a>
+    <!--target="_blank ensures that a new tab opens when the link is clicked-->
+    <a href="index.html">Test html</a>
+    </br>
+    <a href="page2.html">Page 2</a>
+    <a href="dir1/page3.html">Page 3</a>
+    <a href="Dunkey.jpg">Dunkey</a>
+    </br>
+
+    <!--Images-->
+    <h2>Images Tutorial</h2>
+    <hr>
+    <a href=https://cdn.britannica.com/83/211283-131-3DB62136/Tyrannosaurus-Rex-Struthiomimus-dinosaurs.jpg>
+        <img src="https://cdn.britannica.com/83/211283-131-3DB62136/Tyrannosaurus-Rex-Struthiomimus-dinosaurs.jpg"
+            alt="A really scary dino" />
+    </a>
+    </br>
+    <img width="100" height="200"
+        src="https://cdn.britannica.com/83/211283-131-3DB62136/Tyrannosaurus-Rex-Struthiomimus-dinosaurs.jpg"
+        alt="A really scary dino" />
+    </br>
+    <img src="Dunkey.jpg" alt="Best video game reviewer" />
+    </br>
+
+    <!-- Videos and Youtube I Frames Tutorial-->
+    <h2>Video and Youtube I Frames Tutorial</h2>
+    <hr>
+    <video src="Smash Lofi.mp4" autoplay loop poster="Dunkey.jpg" controls width="300">Video not working</video>
+    <!--controls attribute necessary to play video, poster is thumbnail, inside video tag shows up when the video is not working-->
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GdzrrWA8e7A?start=1" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <!--Lists Tutorial-->
+    <h2>List Tutorial</h2>
+    <hr>
+    <ul>
+        <!--Unordered List-->
+        <li><a href="#">Apples</a></li>
+        <li>Oranges</li>
+        <li>Bananas</li>
+    </ul>
+    <ol>
+        <!--Ordered List-->
+        <li><a href="#">Apples</a></li>
+        <li>Oranges</li>
+        <li>Bananas</li>
+    </ol>
+    <ol type="A">
+        <!--Ordered List with letters can be both capital and lower case-->
+        <li><a href="#">Apples</a></li>
+        <li>Oranges</li>
+        <li>Bananas</li>
+    </ol>
+    <ol type="I">
+        <!--Ordered List with Roman Numbers can be both capital and lower case-->
+        <li><a href="#">Apples</a></li>
+        <li>Oranges</li>
+        <ol>
+            <li>item1</li>
+        </ol>
+        <li>Bananas</li>
+    </ol>
+    <dl>
+        <!--Description List-->
+        <dt>Apples</dt>
+        <dd>- They are red</dd>
+        <dt>Oranges</dt>
+        <dd>- They are orange</dd>
+    </dl>
+
+    <!--Tables-->
+    <h2>Tables Tutorial</h2>
+    <hr>
+    <table>
+        <thead>
+            <caption>
+                <h3>List of Numbers</h3>
+            </caption>
+            <tr>
+                <!--tr represents a table a row-->
+                <th>num1</th>
+                <th>num2</th>
+                <th>num3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!--tr represents a table a row-->
+                <td colspan="3">one</td>
+                <td>two</td>
+                <td>three</td>
+                <td>three and a half</td>
+            </tr>
+            <tr>
+                <!--tr represents a table a row-->
+                <td>four</td>
+                <td>five</td>
+                <td>six</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!--Container Tutorial-->
+    <h2>Container's Tutorial</h2>
+    <hr>
+    <a href="#">link1</a>
+    <a href="#">link2</a>
+    <!--Inline elements only take up a certain of widths space-->
+    <br>
+    <p>Paragraph1</p>
+    <p>Paragraph2</p>
+    <!-- Block elements span the entire page-->
+    <span>span1</span>
+    <span>span2</span>
+    <!--Spans are containers that are inline elements-->
+    <br>
+    <div>div1</div>
+    <div>div2</div>
+    <!--Divs are containers are block elements-->
+
+    <!--Inputs and Forms Tutorial-->
+    <h2>Inputs and Forms Tutorial</h2>
+    <hr>
+    <!--Javascript required for a fuctioniong textbox-->
+    <form>
+        <input type="text" value="Enter Username" />
+        <input type="password" />
+        <textarea rows="10" cols="30">
+            Enter a paragraph
+        </textarea>
+        <br>
+        <input type="date" />
+        <br>
+        <input type="range" />
+        <br>
+        <input type="file">
+        <br>
+        <input type="checkbox">
+        <input type="checkbox">
+        <br>
+        <input name="btn" type="radio">
+        <input name="btn" type="radio">
+        <!--Radios are similar to input except they can only take one input-->
+        <br>
+        <input type="submit">
+    </form>
+
+    <!--IFrames Tutorial-->
+    <h2>Iframe Tutorial</h2>
+    <hr>
+    <iframe src="http:/giraffeacademy.com" frameborder="0" width="1000" height="800">Sorry this website is not available</iframe>
+
+    <!--MetaTags Tutorial-->
+    <h2>Metatag Tutorial</h2>
+    <hr>
+    <p>Found in the head section of the html file</p>
+    <!--Found in the head of the Html file-->
+</body>
+
+</html>
